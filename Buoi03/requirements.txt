@@ -1,0 +1,12 @@
+certifi==2026.7.22
+charset-normalizer==3.5.2
+colorama==0.4.6
+docx2pdf==0.1.8
+docx2pdf-markup==0.1.9
+idna==3.20
+Jinja2==3.1.6
+MarkupSafe==3.0.3
+pywin32==312
+requests==2.34.2
+tqdm==4.70.1
+urllib3==2.8.0
