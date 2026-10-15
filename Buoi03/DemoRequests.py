@@ -28,5 +28,5 @@ else:
                 "price": product["price"], "image": product["images"][0]
             }
             html_content = tenplate.render(product=prodata)
-            with open("report.html", 'w', encoding='UTF-8') as file:
+            with open(f"report-{product['id']}.html", 'w', encoding='UTF-8') as file:
                 file.write(html_content)
