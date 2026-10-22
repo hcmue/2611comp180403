@@ -48,6 +48,7 @@ bld/
 [Ll]ogs/
 
 .venv/
+venv/
 
 # Build results on 'Bin' directories
 **/[Bb]in/*
