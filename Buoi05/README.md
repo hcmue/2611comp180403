@@ -3,7 +3,7 @@ Buổi 05 (22/10/2026)
 
 ### Cài package cần thiết
 ```
-pip install "fastapi[standard]" sqlmodel sqlmodel
+pip install "fastapi[standard]" sqlmodel sqlmodel pymysql
 ```
 
 ### Cài XAMPP cho có MySQL
@@ -17,5 +17,11 @@ pip install "fastapi[standard]" sqlmodel sqlmodel
         - Mở xampp-control.exe
         - Start: Apache, MySQL.
             - Chú ý port nếu đụng port thì chọn "Config"
-            - Chọn "apache (httpd.conf)" cho port HTTP -->
-            - Chọn "apache (httpd-ssl.conf)" cho port HTTPS -->
+            - Chọn "apache (httpd.conf)" cho port HTTP --> 8080
+            - Chọn "apache (httpd-ssl.conf)" cho port HTTPS --> 4433
+
+- Tạo database:
+    + Cách 1: Bấm "Admin" của MySQL ở cửa sổ XAMPP control
+    + Cách 2: localhost:<port>/phpmyadmin            
+    + Chọn "Database" ==> Gõ tên database và chọn bộ mã: utf8_unicode_ci
+        - Giả sử tên DB: 2611comp180403
